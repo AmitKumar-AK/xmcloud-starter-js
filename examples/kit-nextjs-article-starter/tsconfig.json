@@ -38,7 +38,7 @@
     },
     "target": "es5",
     "types": [
-      "node"
+      "node", "jest"
     ],
     "lib": [
       "dom",
