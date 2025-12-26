@@ -108,8 +108,4 @@ describe('Hero', () => {
     fireEvent.click(button);
     expect(screen.getByTestId('icon-play')).toBeInTheDocument();
   });
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> f1d2f69080cdc5dc6e6953a49ab35c2cb0a7e9d2

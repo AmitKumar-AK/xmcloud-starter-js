@@ -26,14 +26,6 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "types": [
       "node", "jest"
-<<<<<<< HEAD
-=======
-    ],
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
->>>>>>> f1d2f69080cdc5dc6e6953a49ab35c2cb0a7e9d2
     ],
     "allowJs": true,
     "skipLibCheck": true,
