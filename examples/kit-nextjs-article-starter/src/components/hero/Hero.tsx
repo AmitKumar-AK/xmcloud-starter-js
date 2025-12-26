@@ -46,7 +46,7 @@ export const Default: React.FC<HeroProps> = ({ fields, params, page }) => {
   } = fields || {};
 
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
-  const isPageEditing = page.mode.isEditing;
+  const isPageEditing = page?.mode?.isEditing ?? false;
 
   const { colorScheme } = params;
   // Use custom hook to match media queries
